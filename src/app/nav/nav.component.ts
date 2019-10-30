@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-
+  
+  appTitle = 'myapp';
+// use Typscript here instead of JS appTitle: string = 'myApp';
   constructor() { }
 
   ngOnInit() {
